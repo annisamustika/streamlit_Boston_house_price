@@ -11,28 +11,28 @@ st.title('Data Mining Prediksi Diagnosis Kanker Payudara')
 col1, col2 = st.columns(2)
 
 with col1 :
-   radius_mean = st.text_input ('input nilai radius_mean')
+   radius_mean = st.number_input ('input nilai radius_mean')
 
 with col2 :
-   texture_mean = st.text_input ('input nilai texture_mean')
+   texture_mean = st.number_input ('input nilai texture_mean')
 
 with col1 :
-   perimeter_mean = st.text_input ('input nilai perimeter_mean')
+   perimeter_mean = st.number_input ('input nilai perimeter_mean')
 
 with col2 :
-   area_mean = st.text_input ('input nilai area_mean')
+   area_mean = st.number_input ('input nilai area_mean')
 
 with col1 :
-   smoothness_mean = st.text_input ('input nilai smoothness_mean')
+   smoothness_mean = st.number_input ('input nilai smoothness_mean')
 
 with col2 :
-   compactness_mean = st.text_input ('input nilai compactness_mean')
+   compactness_mean = st.number_input ('input nilai compactness_mean')
 
 with col1 :
-   concavity_mean = st.text_input ('input nilai concavity_mean')
+   concavity_mean = st.number_input ('input nilai concavity_mean')
 
 with col2 :
-   concavepoints_mean = st.text_input ('input nilai concave points_mean')
+   concavepoints_mean = st.number_input ('input nilai concave points_mean')
 
 # Code untuk prediksi
 kanker_diagnosis = ''
