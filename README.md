@@ -223,7 +223,7 @@ pickle.dump(classifier, open(filename,'wb'))
 ```
 ## Evalution
 Dalam kasus ini saya menggunakan akurasi sebagai metrik evaluasi. 
-Akurasi adalah rasio antara jumlah prediksi yang benar (true predictions atau true positives and true negatives) dengan total jumlah prediksi yang dibuat oleh model. Ini mengukur persentase prediksi yang benar dalam hubungannya dengan keseluruhan dataset.
+Akurasi adalah rasio antara jumlah prediksi yang benar (true predictions atau true positives and true negatives) dengan total jumlah prediksi yang dibuat oleh model. Ini mengukur persentase prediksi yang benar dalam hubungannya dengan keseluruhan dataset.Akurasi ini cocok untuk mendeteksi berapa persen hasil diagnosis kanker payudara.
 ```python
 from sklearn.metrics import accuracy_score
 ```
