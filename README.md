@@ -4,7 +4,7 @@
 ### Kelas : Teknik Informatika Pagi A
 
 ### Domain Proyek
- Breast Cancer ini data yang berupa karakteristik inti sel kanker dan diagnosis kanker payudara. Pada test prediksi kanker payudara ini diharapkan dapat memudahkan pekerjaan dokter dalam mengindetifikasi penyakit kanker ganas atau jinak lebih awal.
+ Breast Cancer ini data yang berupa karakteristik inti sel kanker dan diagnosis kanker payudara. Pada projek test prediksi kanker payudara ini diharapkan dapat memudahkan pekerjaan dokter dalam mengindetifikasi penyakit kanker ganas atau jinak lebih awal.
 
 ### Business Understanding
 Data diagnosis kanker payudara sangat penting untuk memastikan bahwa proses diagnosis berjalan efisien, akurat, dan sesuai dengan standar medis. Ini juga membantu organisasi kesehatan untuk terus meningkatkan layanan mereka dan memberikan perhatian yang tepat kepada pasien dengan kanker payudara.
