@@ -11,7 +11,7 @@ INDUS = st.number_input('Masukan nilai proporsi hektar bisnis ')
 NOX = st.number_input('Masukan konsentrasi oksida nitrat')
 RM = st.number_input('Masukan jumlah rata-rata kamar')
 AGE = st.number_input('Masukan unit yang ditempati')
-DIS = st.number_input('Masukan jarak tertimbang ke lima pusat')
+DIS = st.number_input('Masukan jarak ke lima pusat pekerjaan di Boston')
 PTRATIO = st.number_input('Masukan rasio murid guru menurut kota')
 
 predict = ''
@@ -21,5 +21,5 @@ if st.button('Estimasi Tarif Pajak Rumah Di Boston'):
     input_data = [[CRIM, ZN, INDUS, NOX, RM, AGE, DIS, PTRATIO]]
     # Lakukan prediksi dengan model
     predict = model.predict(input_data)
-    st.write('Estimasi Tarif Pajak Rumah Di Boston dalam EUR :', predict)
-    st.write ('Estimasi Tarif Pajak Rumah Di Boston dalam IDR (Juta) : ', predict*19000)
+    st.write('Estimasi Harga Pajak Rumah Di Boston dalam USD :', predict)
+    st.write ('Estimasi Harga Pajak Rumah Di Boston dalam IDR (Juta) : ', predict*19000)
