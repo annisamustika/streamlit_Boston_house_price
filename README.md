@@ -143,6 +143,7 @@ plt.figure(figsize=(15,5))
 sns.displot(df['ZN'])
 ```
 ![Alt text](gambar5.png)
+
 lanjut kita coba tampilkan distribusi dari jarak rumah ke lima pusat pekerjaan di boston.
 ```python
 plt.figure(figsize=(15,5))
