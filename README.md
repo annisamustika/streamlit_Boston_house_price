@@ -28,14 +28,13 @@ Data ini menggunakan dataset yang berasal dari kaggle yang berisi harga rumah di
 
 ### Variabel - variabel pada Boston House Prices adalah sebagai berikut :
 - CRIM: tingkat kejahatan per kapita menurut kota
-- ZN: proporsi lahan perumahan yang dikategorikan untuk lot lebih dari 25.000 sq.ft.
+- ZN: proporsi lahan perumahan.
 - INDUS: proporsi hektar bisnis non-ritel per kota
 - CHAS: variabel dummy Sungai Charles (1 jika saluran membatasi sungai; 0 sebaliknya) 
-- NOX: konsentrasi oksida nitrat (bagian per 10 juta) [bagian / 10M]
-- RM: jumlah rata-rata kamar per tempat tinggal
-- AGE: proporsi unit yang ditempati pemilik yang dibangun sebelum 1940
-- DIS: jarak tertimbang ke lima pusat
-pekerjaan Boston
+- NOX: konsentrasi oksida nitrat (bagian per 10 juta).
+- RM: jumlah rata-rata kamar per tempat tinggal.
+- AGE: proporsi unit yang ditempati pemilik yang dibangun sebelum 1940.
+- DIS: jarak tertimbang ke lima pusat pekerjaan Boston
 - RAD: indeks aksesibilitas ke jalan raya radial 
 - TAX: tarif pajak properti bernilai penuh 
 - PTRATIO: rasio murid-guru menurut kota 
