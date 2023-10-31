@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning
+![image](https://github.com/annisamustika/streamlit_Boston_house_price/assets/139088639/5d1b4bf9-f1cc-4988-8c8f-2dcc8d199fc1)# Laporan Proyek Machine Learning
 ### Nama : Annisa Mustika Anggraeni
 ### Nim : 211351020
 ### Kelas : IF Pagi A
@@ -7,7 +7,7 @@
 Dalam proyek ini kita dapat mengetahui estimasi harga rumah di Boston, dengan mengembangkan model prediksi harga pajak properti rumah berdasarkan faktor-faktor seperti proporsi hektar, proporsi hektar, jumlah rata-rata kamar, dll. Ini adalah proyek pemodelan machine learning yang bisa membantu orang memahami perkiraan harga rumah di masa depan.
 
 ## Business Understanding
-Dapat membantu kita untuk memudahkan mengetahui harga tarif pajak rumah yang ada di Boston tanpa harus datang ketempatnya langsung.
+Dapat membantu kita untuk memudahkan mengetahui harga tarif pajak rumah yang ada di Boston tanpa harus datang ketempatnya langsung dan juga menghemat biaya.
 
 Bagian laporan ini mencakup:
 
@@ -200,7 +200,6 @@ Disini saya menggunakan R-squared (R²) sebagai evaluasi.
 - R-squared (R²) digunakan untuk mengevaluasi sejauh mana model regresi cocok dengan data yang diamati. Lebih spesifik, R-squared memberikan informasi tentang proporsi variabilitas dalam variabel dependen (output) yang dapat dijelaskan oleh variabel independen (input) dalam model regresi.
 ![Alt text](gambar9.png)
 Di sini : R-squared (R²) adalah koefisien determinasi.
-
 SSR (Sum of Squares Residual) adalah jumlah kuadrat residual, yang merupakan jumlah kuadrat selisih antara nilai yang diprediksi oleh model dan nilai sebenarnya dalam data.
 SST (Sum of Squares Total) adalah jumlah kuadrat total, yang merupakan jumlah kuadrat selisih antara nilai data asli dan nilai rata-rata data.
 
@@ -225,5 +224,6 @@ print("Skor Akurasi (R-squared):", r_squared)
 ![Alt text](gambar8.png)
 
 ## Deployment
+https://appbostonhouseprice.streamlit.app
 
 
