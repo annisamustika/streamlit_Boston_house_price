@@ -149,6 +149,7 @@ plt.figure(figsize=(15,5))
 sns.displot(df['DIS'])
 ```
 ![Alt text](gambar6.png)
+
 Nah disini kita berhasil melakukan plotdataset, mendiskripsika dataset dan memberikan informasi melalui dari grafik.
 
 Selanjut mari kita lanjut kedalam modeling.
@@ -180,6 +181,7 @@ score = lr.score(x_test, y_test)
 print('pajak properti rumah di boston = ', score)
 ```
 ![Alt text](gambar7.png)
+
 Bisa kita lihat akurasi model regresi yang kita dapatkan yaitu 72.73%.
 
 Lalu kita akan membuat inputan model regresi linear.
@@ -187,7 +189,7 @@ Lalu kita akan membuat inputan model regresi linear.
 input_data = np.array([[0.00632, 18.0, 2.31, 0.538,	6.575, 65.2, 4.0900, 15.3]])
 
 prediction = lr.predict(input_data)
-print('Estimasi harga pajak rumah dalam EUR :', prediction)
+print('Estimasi harga pajak rumah dalam USA :', prediction)
 ```
 Jika berhasil kita akan lanjut untuk menyimpan model yang telah kita buat tadi.
 ```python
@@ -198,7 +200,9 @@ pickle.dump(lr,open(filename,'wb'))
 ## Evaluation
 Disini saya menggunakan R-squared (R²) sebagai evaluasi.
 - R-squared (R²) digunakan untuk mengevaluasi sejauh mana model regresi cocok dengan data yang diamati. Lebih spesifik, R-squared memberikan informasi tentang proporsi variabilitas dalam variabel dependen (output) yang dapat dijelaskan oleh variabel independen (input) dalam model regresi.
+  
 ![Alt text](gambar9.png)
+
 Di sini : R-squared (R²) adalah koefisien determinasi.
 SSR (Sum of Squares Residual) adalah jumlah kuadrat residual, yang merupakan jumlah kuadrat selisih antara nilai yang diprediksi oleh model dan nilai sebenarnya dalam data.
 SST (Sum of Squares Total) adalah jumlah kuadrat total, yang merupakan jumlah kuadrat selisih antara nilai data asli dan nilai rata-rata data.
@@ -225,6 +229,7 @@ print("Skor Akurasi (R-squared):", r_squared)
 
 ## Deployment
 https://appbostonhouseprice.streamlit.app
+
 ![gambar10](https://github.com/annisamustika/streamlit_Boston_house_price/assets/139088639/af87f3e9-8bce-4339-975e-4c6d0da87bfc)
 
 
