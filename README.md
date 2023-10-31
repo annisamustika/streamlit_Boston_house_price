@@ -91,6 +91,8 @@ Lalu mari kita lihat dataset kita.
 ```python
 df.head()
 ```
+![gambar11](https://github.com/annisamustika/streamlit_Boston_house_price/assets/139088639/b3baa29f-916b-459a-8863-b7b385cac3df)
+
 Lalu kita juga bisa melihat berapa baris dan kolom yang ada di dataset kita.
 ```python
 df.shape
@@ -99,6 +101,8 @@ Selanjutnya untuk melihat mengenai type data dari masing-masing kolom kita bisa 
 ```python
 df.info()
 ```
+![gambar12](https://github.com/annisamustika/streamlit_Boston_house_price/assets/139088639/e3a8bba3-f95f-47b0-967d-7b4ee6d65999)
+
 Lalu kita akan memeriksa apakah dataset tersebut terdapat baris yang kosong atau null dengan menggunkan seaborn.
 ```python
 sns.heatmap(df.isnull())
