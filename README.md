@@ -11,7 +11,7 @@ Dapat membantu kita untuk memudahkan mengetahui harga tarif pajak rumah yang ada
 
 Bagian laporan ini mencakup:
 
-### Proble Statements
+### Problem Statements
 Bagaimana kita mengetahui tarif pajak properti rumah di boston dengan mudah tanpa harus mengeluarkan biaya besar
 
 ### Goals
