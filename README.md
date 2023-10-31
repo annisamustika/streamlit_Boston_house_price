@@ -225,5 +225,5 @@ print("Skor Akurasi (R-squared):", r_squared)
 
 ## Deployment
 https://appbostonhouseprice.streamlit.app
-
+!(gambar10)
 
