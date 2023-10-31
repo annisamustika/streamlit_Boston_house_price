@@ -1,4 +1,4 @@
-![image](https://github.com/annisamustika/streamlit_Boston_house_price/assets/139088639/5d1b4bf9-f1cc-4988-8c8f-2dcc8d199fc1)# Laporan Proyek Machine Learning
+# Laporan Proyek Machine Learning
 ### Nama : Annisa Mustika Anggraeni
 ### Nim : 211351020
 ### Kelas : IF Pagi A
