@@ -225,5 +225,6 @@ print("Skor Akurasi (R-squared):", r_squared)
 
 ## Deployment
 https://appbostonhouseprice.streamlit.app
-!(gambar10)
+![gambar10](https://github.com/annisamustika/streamlit_Boston_house_price/assets/139088639/af87f3e9-8bce-4339-975e-4c6d0da87bfc)
+
 
