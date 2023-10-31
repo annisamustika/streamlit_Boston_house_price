@@ -21,5 +21,5 @@ if st.button('Estimasi Tarif Pajak Rumah Di Boston'):
     input_data = [[CRIM, ZN, INDUS, NOX, RM, AGE, DIS, PTRATIO]]
     # Lakukan prediksi dengan model
     predict = model.predict(input_data)
-    st.write('Estimasi Tarif Pajak Rumah Di Boston:', predict)
+    st.write('Estimasi Tarif Pajak Rumah Di Boston dalam EUR :', predict)
     st.write ('Estimasi Tarif Pajak Rumah Di Boston dalam IDR (Juta) : ', predict*19000)
