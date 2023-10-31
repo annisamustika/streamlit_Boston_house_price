@@ -104,6 +104,7 @@ Lalu kita akan memeriksa apakah dataset tersebut terdapat baris yang kosong atau
 sns.heatmap(df.isnull())
 ```
 ![Alt text](gambar1.png)
+
 Nah,kita bisa lihat hasil nya cukup aman.
 
 Mari kita lanjutkan untuk mengecek detail informasi dari dataset ini.
