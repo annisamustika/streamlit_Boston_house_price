@@ -24,7 +24,7 @@ Memastikan bahwa perhitungan tarif pajak properti rumah mengikuti prinsip keadil
 ### Data Understanding
 Data ini menggunakan dataset yang berasal dari kaggle yang berisi harga rumah di boston. terdiri dari 506 baris dan 14 kolom, yang mencakup berbagai variabel yang berkaitan dengan harga pajak properti rumah di Boston.
 
-(Boston-house-price-data)
+(https://www.kaggle.com/datasets/arunjathari/bostonhousepricedata/code)
 
 ### Variabel - variabel pada Boston House Prices adalah sebagai berikut :
 - CRIM: tingkat kejahatan per kapita menurut kota
