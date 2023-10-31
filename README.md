@@ -117,6 +117,7 @@ plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(),annot=True)
 ```
 ![Alt text](gambar2.png)
+
 Lalu mari kita tampilkan proporsi lahan berdasarkan proporsi hektar.
 ```python
 ZN = df.groupby('ZN').count()[['INDUS']].sort_values(by='INDUS',ascending=True).reset_index()
