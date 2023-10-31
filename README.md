@@ -200,6 +200,7 @@ Disini saya menggunakan R-squared (R²) sebagai evaluasi.
 - R-squared (R²) digunakan untuk mengevaluasi sejauh mana model regresi cocok dengan data yang diamati. Lebih spesifik, R-squared memberikan informasi tentang proporsi variabilitas dalam variabel dependen (output) yang dapat dijelaskan oleh variabel independen (input) dalam model regresi.
 ![Alt text](gambar9.png)
 Di sini : R-squared (R²) adalah koefisien determinasi.
+
 SSR (Sum of Squares Residual) adalah jumlah kuadrat residual, yang merupakan jumlah kuadrat selisih antara nilai yang diprediksi oleh model dan nilai sebenarnya dalam data.
 SST (Sum of Squares Total) adalah jumlah kuadrat total, yang merupakan jumlah kuadrat selisih antara nilai data asli dan nilai rata-rata data.
 
