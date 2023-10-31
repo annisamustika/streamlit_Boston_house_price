@@ -3,7 +3,7 @@ import streamlit as st
 
 model = pickle.load(open('Tarif_Pajak_diBoston.sav', 'rb'))
 
-st.title('Estimasi Tarif Pajak Rumah Di Boston')
+st.title('Estimasi Harga Pajak Rumah Di Boston')
 
 CRIM = st.number_input('Masukan tingkat kejahatan')
 ZN = st.number_input('Masukan nilai proposi lahan perumahan')
@@ -16,7 +16,7 @@ PTRATIO = st.number_input('Masukan rasio murid guru menurut kota')
 
 predict = ''
 
-if st.button('Estimasi Tarif Pajak Rumah Di Boston'):
+if st.button('Estimasi Harga Pajak Rumah Di Boston'):
     # Masukkan data input ke dalam bentuk list
     input_data = [[CRIM, ZN, INDUS, NOX, RM, AGE, DIS, PTRATIO]]
     # Lakukan prediksi dengan model
